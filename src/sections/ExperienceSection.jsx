@@ -1,10 +1,9 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
 import { expCards } from "../constants";
 import TitleHeader from "../components/TitleHeader";
-import GlowCard from "../components/Glowcard";
+// import GlowCard from "../components/Glowcard";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -37,7 +36,6 @@ const Experience = () => {
         },
       },
     });
-
     gsap.utils.toArray(".expText").forEach((text) => {
       gsap.from(text, {
         opacity: 0,
@@ -55,15 +53,13 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="flex-center md:mt-40 mt-20 section-padding xl:px-0"
-    >
+      className="flex-center md:mt-40 mt-20 section-padding xl:px-0">
       <div className="w-full h-full md:px-20 px-5">
         <TitleHeader
           title="Professional Experience & Education"
-          sub="💼 My Career and Academic Journey"
-        />
-        <div className="mt-32 relative">
-          <div className="relative z-50 xl:space-y-32 space-y-10">
+          sub="💼 My Career and Academic Journey"/>
+          <div className="mt-32 relative">
+            <div className="relative z-50 xl:space-y-32 space-y-10">
             {expCards.map((card) => (
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
@@ -77,8 +73,8 @@ const Experience = () => {
                   <div className="flex items-start">
                     <div className="timeline-wrapper">
                       <div className="timeline" />
-                      <div className="gradient-line w-1 h-full" />
-                    </div>
+                        <div className="gradient-line w-1 h-full" />
+                        </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                       <div className="timeline-logo">
                         <p style={{ fontSize: '50px' }}>🔍</p>
@@ -106,8 +102,8 @@ const Experience = () => {
                 </div>
               </div>
             ))}
+            </div>
           </div>
-        </div>
       </div>
     </section>
   );

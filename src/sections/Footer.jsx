@@ -1,7 +1,6 @@
-import React from 'react'
 import {socialImgs} from "../constants/index.js"
 
-const Footer = (props) => {
+const Footer = () => {
   return (
     <div className="flex justify-center items-center h-40 space-x-6">
     {socialImgs.map((img)=>
