@@ -62,7 +62,12 @@ const Experience = () => {
             <div className="relative z-50 xl:space-y-32 space-y-10">
             {expCards.map((card) => (
               <div key={card.title} className="exp-card-wrapper">
-                <div className="xl:w-2/6">
+                <div className="xl:w-2/6 flex flex-col items-start">
+                  <div className="flex flex-col items-start">
+                    <div className="w-full md:w-[400px] h-[250px] rounded-xl overflow-hidden shadow-lg">
+                      <iframe src={card.location} className="w-full h-full" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
                   {/* <GlowCard card={card}>
                     {/* <div>
                       <img src={card.imgPath} alt="exp-img" />

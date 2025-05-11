@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import TitleHeader from "../components/TitleHeader";
 // import ComputerModel from "../components/Models/ContactModels/ComputerModel";
 import HeroExperience from "../components/Models/HeroModels/HeroExperience";
+import {socialImgs} from "../constants/index.js"
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -103,6 +104,13 @@ const Contact = () => {
               </div>
             </div>
       </div>
+      <div className="flex-col space-x-5">
+        {socialImgs.map((img)=>
+          <a href={img.link} key={img.name}>
+            <img src={img.imgPath} alt={img.name} className="w-10 h-10 hover:opacity-80 transition-opacity duration-200"/>
+          </a>
+        )}
+      </div>  
     </section>
   );
 };

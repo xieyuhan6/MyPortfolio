@@ -147,11 +147,11 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Study at Stockholm University (Information Security)",
     date: "Augest 2024 - Present",
+    location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2033.0660226281645!2d18.052468412408135!3d59.36523700804051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d0fa1e1f54f%3A0xfaf8cf4bae1c25fd!2sStockholm%20University!5e0!3m2!1sen!2sse!4v1746991144382!5m2!1sen!2sse",
     Engagement: [
       "Studying advanced topics in cybersecurity, cryptography, and network security.",
       "Self-studied full-stack development, including front-end and back-end technologies such as React, Node.js, and databases.",
@@ -163,28 +163,29 @@ const expCards = [
     logoPath: "/images/logo2.png",
     title: "Work at Kumai Information Technology Co. Ltd(Turkish Operation Specialist)",
     date: "May 2023 - July 2024",
+    location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d469428.5403580345!2d113.01703204140183!3d23.191707064721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3402ffd295ffc3c7%3A0x8d287447ddc8b9e7!2z5bm_5bee5aSp5rKz6L2v5Lu25Zutwrfnp5Hpn7Xlm63ljLo!5e0!3m2!1sen!2sse!4v1746991088439!5m2!1sen!2sse",
     Engagement: [
       "Making data analysis, accessing business risks, and providing suggestions for policy management in the application from a data perspective.",
       "Communicating with Turkish users and helping them with their various issues.",
     ],
+
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "Work at Hello Group Inc.(Turkish Operation Intern)",
     date: "Janunary 2023 - May 2023",
+    location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.536798587952!2d116.47886001129565!3d39.99645558099316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f1aa45abd8492d%3A0x43550a07f3f0d9bc!2sWangjing%20Soho%2C%20%E6%9C%9B%E4%BA%AC%20Chao%20Yang%20Qu%2C%20Bei%20Jing%20Shi%2C%20China%2C%20100102!5e0!3m2!1sen!2sse!4v1746990764581!5m2!1sen!2sse",
     Engagement: [
       "Collecting and managing the company's operating data, including business development and production operations",
       "Addressing users’ technical issues by collecting issues and passing those down to the technology team, and ensuring high levels of customer satisfaction.",
     ],
+
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "Study at Guangdong University of Foreign Studies(Turkish)",
     date: "Augest 2019 - Augest 2023",
+    location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.1886140868687!2d113.28697171066038!3d23.19979590960447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3402fc09bcabe5ad%3A0xccdfc77a49c32e74!2sGuangdong%20University%20of%20Foreign%20Studies!5e0!3m2!1sen!2sse!4v1746990197400!5m2!1sen!2sse",
     Engagement: [
       "Proficient in Turkish speaking, reading, and writing.",
       "Comprehensive English skills.",
@@ -255,13 +256,18 @@ const testimonials = [
 const socialImgs = [
   {
     name: "insta",
-    imgPath: "/images/insta.png",
-    link:""
+    imgPath: "/images/instagram.png",
+    link:"https://www.instagram.com/yuhanna_xie"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
     link:"https://www.linkedin.com/in/yuhan-xie-0326xyh"
+  },
+  {
+    name: "cv",
+    imgPath: "/images/cv.png",
+    link:"Yuhan-Xie-Resume.pdf"
   },
 ];
 
