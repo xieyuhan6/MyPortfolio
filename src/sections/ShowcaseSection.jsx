@@ -28,17 +28,19 @@ useGSAP(()=>{
             <div  ref={project1Ref} className='first-project-wrapper'>
                 <img src='/images/aiinterview.jpg' alt="firstproject"/>
                    <div className='text-content'>
-                      <h2>AI-interview</h2>
+                        <a href="https://ai-interview-jzwo.vercel.app/" className='underline'>
+                            <h2>AII nterview Mocking Site</h2>
+                        </a>
                 {/* <p className='text-white-50 md:text-xl'>An app</p> */}
                     </div>
             </div>
             <div className='project-list-wrapper overflow-hidden'>
                 <div ref={project2Ref} className='project'>
                     <div className='image-wrapper bg-[#ffefdb]'>
-                        <img src='/images/project2.png' alt="secondproject"/>
+                        <img src='/images/Toolbox.png' alt="secondproject"/>
                     </div>  
                     <div className='group'>
-                        <a href="https://toolbox-chi-snowy.vercel.app/" className='underline'>
+                        <a href="https://toolbox-pwgl.vercel.app/" className='underline'>
                             <h2>ToolBox</h2>
                         </a>
                     </div>
